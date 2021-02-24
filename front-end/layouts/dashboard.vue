@@ -27,7 +27,7 @@
       <nuxt />
     </v-content>
     <v-footer app inset dark>
-      <span class="white--text">&copy; Ecomp 2020</span>
+      <span class="white--text">&copy; Dev-Brabo</span>
     </v-footer>
   </v-app>
 </template>
