@@ -43,7 +43,7 @@ Route::apiResource('service', 'API\ServiceController');
 /*
     Rotas Imagens
 */
-Route::apiResource('image', 'API\ImageController');
+// Route::apiResource('image', 'API\ImageController');
 //Route::post('storeImage', 'API\ImageController@store');
 //Route::put('updateImage', 'API\ImageController@update');
 //Route::post('deleteImage', 'API\ImageController@destroy');
@@ -53,7 +53,7 @@ Route::apiResource('image', 'API\ImageController');
 /*
     Rotas de Depoimentos
 */
-Route::apiResource('testimony', 'API\TestimonyController');
+// Route::apiResource('testimony', 'API\TestimonyController');
 //Route::post('storeTestimony', 'API\TestimonyController@store');
 //Route::put('updateTestimony', 'API\TestimonyController@update');
 //Route::post('deleteTestimony', 'API\TestimonyController@destroy');
@@ -63,7 +63,7 @@ Route::apiResource('testimony', 'API\TestimonyController');
 /*
     Rotas de Categorias
 */
-Route::apiResource('category', 'API\CategoryController');
+// Route::apiResource('category', 'API\CategoryController');
 //Route::post('storeCategory', 'API\CategoryController@store');
 //Route::put('updateCategory', 'API\CategoryController@update');
 //Route::post('deleteCategory', 'API\CategoryController@destroy');
@@ -73,7 +73,7 @@ Route::apiResource('category', 'API\CategoryController');
 /*
     Rotas de Portfolio
  */
-Route::apiResource('portfolio', 'API\PortfolioController');
+// Route::apiResource('portfolio', 'API\PortfolioController');
 //Route::post('storePortfolio', 'API\PortfolioController@store');
 //Route::put('updatePortfolio', 'API\PortfolioController@update');
 //Route::post('deletePortfolio', 'API\PortfolioController@destroy');
@@ -88,4 +88,4 @@ Route::apiResource('message','API\MessageController');
 /*
     Rotas de equipe
  */
-Route::apiResource('team','API\TeamController');
+// Route::apiResource('team','API\TeamController');

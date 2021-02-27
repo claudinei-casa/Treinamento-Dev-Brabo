@@ -1,11 +1,19 @@
 <template>
   <v-container>
-    <p>comece por aqui!!!</p>
+    <Servicos :servicos="serviceData" />
   </v-container>
 </template>
 
 <script>
+import Servicos from '~/components/globals/Servicos'
 export default {
-  components: {},
+  components: { Servicos },
+
+  async asyncData({ $axios }) {
+    const serviceRes = await $axios.get('service')
+    return {
+      serviceData: serviceRes.data.servicos,
+    }
+  },
 }
 </script>

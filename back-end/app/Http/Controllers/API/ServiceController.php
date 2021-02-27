@@ -12,7 +12,7 @@ class ServiceController extends Controller
     /*função store*/
     public function store(Request $request) {
         $validator = Validator::make($request->all(), [
-            'icon'=>'required|string',
+            // 'icon'=>'required|string',
             'service'=>'required|string',
             'description'=>'required|string'
         ]);
@@ -44,7 +44,7 @@ class ServiceController extends Controller
     public function update(Request $request) {
         $validator = Validator::make($request->all(), [
             'id'=>'required|integer',
-            'icon'=>'required|string',
+            // 'icon'=>'required|string',
             'service'=>'required|string',
             'description'=>'required|string'
         ]);

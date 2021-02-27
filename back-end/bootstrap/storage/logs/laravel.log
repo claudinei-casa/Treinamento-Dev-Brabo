@@ -1,0 +1,46 @@
+[2021-02-26 00:18:04] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#1 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#2 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(122): Illuminate\\Log\\LogManager->error()
+#4 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2021-02-26 00:18:04] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/symfony/finder/Finder.php:589)
+[stacktrace]
+#0 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(88): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(65): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
+[2021-02-26 00:18:18] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#1 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#2 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(122): Illuminate\\Log\\LogManager->error()
+#4 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(366): App\\Exceptions\\Handler->report()
+#6 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2021-02-26 00:18:18] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/symfony/finder/Finder.php:589)
+[stacktrace]
+#0 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(88): Symfony\\Component\\Finder\\Finder->in()
+#1 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(65): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 /home/cla/Documents/Treinamento-Dev-Brabo/back-end/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
