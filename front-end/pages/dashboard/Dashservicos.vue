@@ -1,5 +1,5 @@
 <template>
-  <v-app></v-app>
+  <v-app><p>Code aqui sua dashboard</p></v-app>
 </template>
 
 <script>

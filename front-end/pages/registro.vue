@@ -10,9 +10,7 @@
       type="password"
     />
 
-    <div @click="realizarRegistro">
-      Registrar
-    </div>
+    <div @click="realizarRegistro">Registrar</div>
   </div>
 </template>
 

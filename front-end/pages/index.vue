@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <Servicos :servicos="serviceData" />
+    <Servicos />
   </v-container>
 </template>
 
@@ -8,12 +8,5 @@
 import Servicos from '~/components/globals/Servicos'
 export default {
   components: { Servicos },
-
-  async asyncData({ $axios }) {
-    const serviceRes = await $axios.get('service')
-    return {
-      serviceData: serviceRes.data.servicos,
-    }
-  },
 }
 </script>

@@ -1,26 +1,17 @@
 <template>
-  <v-container
-    ><p>Voce pode começar fazendo alguns card aqui!!!</p>
-    <v-card v-for="serv in servicos" :key="serv">
-      <p>{{ serv.service }}</p>
-    </v-card>
+  <v-container>
+    <!-- Crie aqui seus Cards -->
   </v-container>
 </template>
 <script>
 export default {
   name: 'Servicos',
   props: {
-    servicos: {
-      type: Array,
-      require: true,
-      default: () => {},
-    },
+    // Digite aqui sua Props Serviços
   },
-  // async asyncData({ $axios }) {
-  //   const serviceRes = await $axios.get('service')
-  //   return {
-  //     serviceData: serviceRes.data.servicos,
-  //   }
-  // },
+  data() {
+    return {}
+  },
 }
 </script>
+<style scoped></style>

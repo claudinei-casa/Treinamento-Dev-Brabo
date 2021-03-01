@@ -19,9 +19,7 @@
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title>Painel do Administrador</v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn @click="logout()">
-        Sair
-      </v-btn>
+      <v-btn @click="logout()"> Sair </v-btn>
     </v-app-bar>
     <v-content>
       <nuxt />
@@ -39,13 +37,8 @@ export default {
     items: [
       {
         icon: 'mdi-check',
-        text: 'Dashboard1',
-        link: '/dashboard/dashboard1',
-      },
-      {
-        icon: 'mdi-check',
-        text: 'Dashboard2',
-        link: '/dashboard/dashboard2',
+        text: 'Serviços',
+        link: 'dashboard/Dashservicos',
       },
     ],
   }),

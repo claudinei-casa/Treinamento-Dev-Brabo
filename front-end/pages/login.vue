@@ -9,9 +9,7 @@
           Esqueceu a senha?
         </nuxt-link>
       </v-flex>
-      <div @click="realizarLogin">
-        Entrar
-      </div>
+      <div @click="realizarLogin">Entrar</div>
     </div>
   </v-app>
 </template>
